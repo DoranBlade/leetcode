@@ -1,7 +1,7 @@
 package array;
 
 /**
- * 元素去重
+ * 有序数组元素去重
  * created by eric on 18-2-12
  */
 public class RemoveDuplicates {
