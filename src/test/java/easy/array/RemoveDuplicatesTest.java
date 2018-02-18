@@ -1,8 +1,6 @@
-package array;
+package easy.array;
 
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 /**
  * created by eric on 18-2-13

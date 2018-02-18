@@ -1,4 +1,4 @@
-package array;
+package easy.array;
 
 /**
  * 有序数组元素去重

@@ -1,4 +1,4 @@
-package array;
+package easy.array;
 
 /**
  * 两个元素相加

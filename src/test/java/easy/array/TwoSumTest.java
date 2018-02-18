@@ -1,10 +1,8 @@
-package array;
+package easy.array;
 
 import org.hamcrest.CoreMatchers;
 import org.junit.Assert;
 import org.junit.Test;
-
-import static org.junit.Assert.*;
 
 /**
  * created by eric on 18-2-13

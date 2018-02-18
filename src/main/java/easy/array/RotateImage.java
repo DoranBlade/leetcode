@@ -1,4 +1,4 @@
-package array;
+package easy.array;
 
 /**
  * 旋转二维数组

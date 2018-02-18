@@ -1,4 +1,4 @@
-package array;
+package easy.array;
 
 /**
  * 数组排序
