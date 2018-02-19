@@ -6,6 +6,13 @@ package easy.string;
  */
 public class ReverseInteger {
 
+    /**
+     * 转换成字符后反转,然后转换成数值
+     * T:O(n/2) S:O(n)
+     *
+     * @param x 输入
+     * @return 输出
+     */
     public int reverse(int x) {
         boolean isNegative = false;
         long param = x;
@@ -24,6 +31,23 @@ public class ReverseInteger {
         if (isNegative) {
             result = 0 - result;
         }
-        return result >= Integer.MIN_VALUE && result <= Integer.MAX_VALUE ? (int) result : 0;
+        return result < Integer.MIN_VALUE || result > Integer.MAX_VALUE ? 0 : (int) result;
+    }
+
+    /**
+     * 利用数值求余特性
+     * 先求余个位,再求余十位,依次求余到最高位
+     * T:O(n/10) S:O(1)
+     *
+     * @param x 输入
+     * @return 输出
+     */
+    public int reverse1(int x) {
+        long result = 0;
+        while (x != 0) {
+            result = result * 10 + x % 10;
+            x /= 10;
+        }
+        return result < Integer.MIN_VALUE || result > Integer.MAX_VALUE ? 0 : (int) result;
     }
 }

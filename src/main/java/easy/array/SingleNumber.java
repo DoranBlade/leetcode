@@ -1,7 +1,6 @@
 package easy.array;
 
 /**
- *
  * created by eric on 18-2-15
  */
 public class SingleNumber {

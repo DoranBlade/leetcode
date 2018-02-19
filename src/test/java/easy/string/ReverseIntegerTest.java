@@ -2,8 +2,6 @@ package easy.string;
 
 import org.junit.Test;
 
-import static org.junit.Assert.*;
-
 /**
  * created by eric on 18-2-18
  */
