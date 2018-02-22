@@ -10,6 +10,6 @@ public class RotateArrayTest {
     @Test
     public void rotate() {
         int[] source = {1, 2, 3};
-        new RotateArray().rotate(source, 2);
+        new RotateArray().rotate1(source, 2);
     }
 }
