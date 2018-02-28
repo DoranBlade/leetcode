@@ -12,10 +12,4 @@ public class FirstUniqCharTest {
         String input = "loveleetcode";
         int result = new FirstUniqChar().firstUniqChar1(input);
     }
-
-    @Test
-    public void name() {
-        String input = "input";
-        char res = input.charAt(6);
-    }
 }

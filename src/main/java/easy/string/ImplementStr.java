@@ -17,7 +17,7 @@ public class ImplementStr {
         for (int i = 0; i <= haystack.length() - needle.length(); i++) {
             if (haystack.charAt(i) == needle.charAt(0)) {
                 isContainer = true;
-                for (int j = i, k = 0; k < needle.length(); j++,k++) {
+                for (int j = i, k = 0; k < needle.length(); j++, k++) {
                     if (haystack.charAt(j) != needle.charAt(k)) {
                         isContainer = false;
                         break;
